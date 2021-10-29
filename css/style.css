@@ -1,0 +1,47 @@
+#h_1{
+    animation-name: my_srilanka;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+@keyframes my_srilanka {
+    0%{
+        color: red;
+    }
+    20%{
+        color: yellow;
+    }
+    40%{
+        color: orange;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: green;
+    }
+    100%{
+        color: black;
+    }
+}
+#img_1{
+    animation-name: img_running;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes img_running {
+    0%{
+        left: 0%;
+        transform: rotateY(0deg);
+    }
+    50%{
+        left: 80%;
+        transform: rotateY(0deg);
+    }
+    51%{
+        
+    }
+    100%{
+
+    }
+}
